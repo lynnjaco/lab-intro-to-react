@@ -1,0 +1,22 @@
+#add-post-form-container{
+    background-color: hotpink;
+    height: 15em;
+    padding: 1em 3em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#post-text-entry-box{
+    width: 90%;
+    height: 5em;
+}
+
+button{
+    width: 7em;
+}
