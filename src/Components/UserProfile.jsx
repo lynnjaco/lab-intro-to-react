@@ -1,10 +1,13 @@
+import "./UserProfile.css";
+
+
 export const UserProfile = () =>  {
-    <div>
-        <div>
+    <div id="user-profile-container">
+        <div id="user-profile-image">
             <img src="https://images.pexels.com/photos/8845637/pexels-photo-8845637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="user profile photo"></img>
         </div>
         <div id="user-info">
-            <div>
+            <div id="user-full-name">
                 <h2>Lynnette</h2>
                 <h3>Jacobs</h3>
             </div>

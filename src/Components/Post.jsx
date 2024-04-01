@@ -1,3 +1,5 @@
+import "./Post.css";
+
 export const Post = () => {
     <div>
         <h3>Title</h3>

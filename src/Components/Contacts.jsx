@@ -1,8 +1,8 @@
 import { ContactUserCard } from "./ContactUserCard"
 
 export const Contacts = () => {
-    <div>
-        
+    <div id="contacts-container">
+
     </div>
 
 }

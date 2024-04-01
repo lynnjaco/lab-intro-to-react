@@ -1,0 +1,11 @@
+#header-nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    color: black;
+    text-transform: uppercase;
+    
+}

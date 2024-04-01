@@ -1,4 +1,5 @@
 import { contactlist } from "../Data/contactlist"
+import "./ContactUserCard.css";
 
 export const ContactUserCard = () => {
     <div>

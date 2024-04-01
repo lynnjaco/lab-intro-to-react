@@ -1,0 +1,29 @@
+#user-profile-container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    background-color: darkorange;
+}
+
+#user-profile-image{
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        width: 90%;
+        border-radius: 50%;
+    }
+}
+
+#user-info{
+    grid-column: 2 / span end;
+}
+
+#user-full-name{
+    display: flex;
+    flex-direction: row;
+
+
+}
