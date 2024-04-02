@@ -1,20 +1,20 @@
-import { contactlist } from "../Data/contactlist"
 import "./ContactUserCard.css";
 
-export const ContactUserCard = () => {
+export const ContactUserCard = (props) => {
+
     <div>
         <div>
-            <img src="" alt="contact profile image"></img>
+            <img src={ props.image } alt="contact profile image"></img>
         </div>
         <div>
-            <h3>Firstname</h3>
-            <h4>Lastname</h4>
+            <h3>{ props.firstName }</h3>
+            <h4>{ props.lastName }</h4>
         </div>
         <div>
-            <h6>00</h6>
-            <h6>Occupation</h6>
-            <h6>Location</h6>
+            <h6>{ props.age }</h6>
+            <h6>{ props.occupation }</h6>
+            <h6>{ props.locations }</h6>
         </div> 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem magnam non esse, reprehenderit accusamus quas molestias eum odio obcaecati quibusdam. Dolores nihil similique quisquam adipisci nesciunt explicabo suscipit esse aperiam.</p>
+        <p>{ props.tagline }</p>
     </div>
 }
