@@ -1,0 +1,41 @@
+.post-container{
+    display: flex;
+    flex-direction: row;
+    height: 25em;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0.2em 0.2em 0.2em rgb(211, 211, 211);
+    border-radius: 0.2em;
+    margin: 2em 0em;
+    align-items: center;
+}
+
+.post-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 1em;
+}
+
+.post-image{
+    height: 100%;
+    width: 20em;
+    object-fit: contain;
+
+    img{
+        height: 100%;
+        width: 20em;
+    }
+}
+
+h3{
+    margin-top: 0%;
+}
+
+h5{
+    font-style: italic;
+}
+
+p{
+    font-style: normal;
+}

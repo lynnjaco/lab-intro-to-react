@@ -4,11 +4,13 @@ export const AddPostForm = () => {
     return (
         <div id="add-post-form-container">
             <form>
-                <h4>Add Post</h4>
-                <label>Post Title<input type="text"></input></label>
-                <label><input type="file"></input></label>
-                <label><input id="post-text-entry-box" type="text" placeholder="Write your post here..."></input></label>
-                <button type="submit">Add Post</button>
+                <h4>Create New Post</h4>
+                <label>Post Title<input id="post-title-entry-box" type="text"></input></label>
+                <input id="post-text-entry-box" type="text" placeholder="Write your post here..."></input>
+                <div id="title-image-row">
+                    <input type="file"></input>
+                    <button type="submit">Add Post</button>
+                </div> 
             </form>
         </div>
     )

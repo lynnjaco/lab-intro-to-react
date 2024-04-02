@@ -1,22 +1,45 @@
 #add-post-form-container{
-    background-color: hotpink;
+    background-color: #ffa62b;
     height: 15em;
     padding: 1em 3em;
 }
 
 form{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    
+    color: white;
 }
 
 #post-text-entry-box{
-    width: 90%;
+    width: 60%;
     height: 5em;
 }
 
+input{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-radius: 0.2em;
+}
+
+#title-image-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+#post-title-entry-box{
+    height: 1.5em;
+
+}
+
 button{
-    width: 7em;
+    width: 13em;
+    height: 2em;
+    border: none;
+    border-radius: 0.2em;
+
 }

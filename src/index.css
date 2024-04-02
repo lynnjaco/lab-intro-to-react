@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
 }
 
@@ -25,20 +25,24 @@ main{
 }
 
 #right-page-column{
-  background-color: aqua;
+  background-color: #ede7e3;
   grid-column: 2 / span end;
 }
 
 #left-page-column{
-  background-color: blue;
+  background-color:#489fb5;
   grid-column: 1 / 2;
 
-  display: flex;
-  flex-direction: column;
 }
 
 header{
-  background-color: rgb(253, 208, 8);
+  background-color: #16697a;
   grid-row: 1 / 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
 

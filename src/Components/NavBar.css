@@ -1,11 +1,12 @@
 #header-nav-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 50%;
 }
 
 a{
-    color: black;
+    color: white;
     text-transform: uppercase;
-    
+    text-decoration: none;
 }
