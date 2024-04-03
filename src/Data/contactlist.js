@@ -29,7 +29,7 @@ export const contactlist = [
     {
         firstName: "Kevin",
         lastName: "McCallister",
-        occupation: "Booby Trap Aficionado/Burglar Assassin",
+        occupation: "Booby Trap Enthusiast",
         age: "10",
         location: "Lost In New York",
         image: "https://i.insider.com/6393ab6ea3bebb0018b3edd1?width=1136&format=jpeg",

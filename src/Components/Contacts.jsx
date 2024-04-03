@@ -1,9 +1,10 @@
 import { contactlist } from "../Data/contactlist"
 import { ContactUserCard } from "./ContactUserCard"
+import "./Contacts.css"
 
 export const Contacts = () => {
     return (
-        <div id="contacts-container">
+        <div class="contacts-container">
             { contactlist.map((friend) => <ContactUserCard 
             image={ friend.image }
             firstName={ friend.firstName}
@@ -15,5 +16,4 @@ export const Contacts = () => {
                 />) }
         </div>
     )
-
 }
